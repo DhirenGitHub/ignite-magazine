@@ -28,6 +28,13 @@ export default function Footer() {
             <li><Link to="/login">Editor login</Link></li>
           </ul>
         </div>
+        <div>
+          <h4>Contact</h4>
+          <ul>
+            <li><a href="https://www.instagram.com/unmignite/" target="_blank" rel="noreferrer">Instagram</a></li>
+            <li><a href="https://www.linkedin.com/company/unm-ignite" target="_blank" rel="noreferrer">LinkedIn</a></li>
+          </ul>
+        </div>
       </div>
       <div className="footer-mark">IGNITE</div>
       <div className="footer-legal">
