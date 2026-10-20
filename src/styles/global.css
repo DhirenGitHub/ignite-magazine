@@ -767,7 +767,7 @@ button { font-family: inherit; cursor: pointer; }
 }
 .footer-grid {
   display: grid;
-  grid-template-columns: 2fr 1fr 1fr 1fr;
+  grid-template-columns: 2fr 1fr 1fr 1.6fr;
   gap: 3rem;
   margin-bottom: 3rem;
 }
@@ -790,6 +790,13 @@ button { font-family: inherit; cursor: pointer; }
 .footer li { list-style: none; margin-bottom: 0.55rem; }
 .footer li a { font-size: 0.85rem; color: rgba(255,255,255,0.8); }
 .footer li a:hover { color: var(--pink); }
+.footer-address {
+  font-style: normal;
+  font-size: 0.85rem;
+  line-height: 1.6;
+  color: rgba(255,255,255,0.7);
+  margin-bottom: 1rem;
+}
 
 .footer-mark {
   font-family: var(--font-display);

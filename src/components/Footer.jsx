@@ -30,9 +30,16 @@ export default function Footer() {
         </div>
         <div>
           <h4>Contact</h4>
+          <address className="footer-address">
+            The University of Nottingham,
+            <br />Malaysia Campus,
+            <br />Jalan Broga, 43500, Semenyih
+          </address>
           <ul>
-            <li><a href="https://www.instagram.com/unmignite/" target="_blank" rel="noreferrer">Instagram</a></li>
-            <li><a href="https://www.linkedin.com/company/unm-ignite" target="_blank" rel="noreferrer">LinkedIn</a></li>
+            <li><a href="mailto:unmignite@gmail.com">unmignite@gmail.com</a></li>
+            <li><a href="https://www.instagram.com/unm_ignite/" target="_blank" rel="noreferrer">@unm_ignite on Instagram</a></li>
+            <li><a href="https://www.tiktok.com/@unmignite" target="_blank" rel="noreferrer">@unmignite on TikTok</a></li>
+            <li><a href="https://www.linkedin.com/company/unm-ignite" target="_blank" rel="noreferrer">UNM Ignite on LinkedIn</a></li>
           </ul>
         </div>
       </div>
